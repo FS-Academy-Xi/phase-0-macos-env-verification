@@ -3,7 +3,7 @@
 ## Action Item
 
 1. Open your "Terminal" application using "Spotlight Search"
-2. Type `curl -so- https://raw.githubusercontent.com/thomasfowlerFIS/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script | zsh 2> /dev/null`
+2. Type `curl -so- https://raw.githubusercontent.com/FS-Academy-Xi/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script | zsh 2> /dev/null`
 
 ## Check Your Work
 
@@ -29,7 +29,7 @@ mv ~/.zshrc{,.bak}
 The second command replaces the contents of your `.zshrc` file with a default dot file:
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.zshrc > ~/.zshrc
+curl -sSL https://raw.githubusercontent.com/FS-Academy-Xi/dotfiles/master/.zshrc > ~/.zshrc
 ```
 
 Close and reopen your terminal. With a new `.zshrc` file, we can now test out each tool.
